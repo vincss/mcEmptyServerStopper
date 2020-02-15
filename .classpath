@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry exported="true" kind="lib" path="./ExtLib/spigot-api-1.15.1-R0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="./ExtLib/spigot-api-1.15.1-R0.1-SNAPSHOT-shaded.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>

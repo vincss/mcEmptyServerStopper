@@ -1,0 +1,3 @@
+name: EmptyServerStopper
+main: ess.emptyserverstopper.EmptyServerStopper
+version: "0.4"
