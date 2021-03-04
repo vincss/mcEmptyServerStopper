@@ -24,6 +24,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: 'Upload Artifact Windows'
       uses: actions/upload-artifact@v2
-      with:        
+      with:
+        name: 'Plugin Jar'
         path: target/*.jar   
  
