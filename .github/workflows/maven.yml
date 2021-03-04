@@ -1,7 +1,7 @@
 # This workflow will build a Java project with Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Java CI with Maven
+name: Build On Commit
 
 on:
   push:
@@ -24,7 +24,6 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: 'Upload Artifact Windows'
       uses: actions/upload-artifact@v2
-      with:
-        name: 'Jar'
+      with:        
         path: target/*.jar   
  
