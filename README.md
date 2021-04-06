@@ -31,7 +31,7 @@ The delay before service shutdown is configurable in : plugins/EmptyServerStoppe
 
 ChangeLog:
 
-    1.16.5
+    1.16.5 (Only compatible with Java 11)
         Updated for latest 1.16.5 version
     1.15.1
         Updated for latest 1.15.1 version
