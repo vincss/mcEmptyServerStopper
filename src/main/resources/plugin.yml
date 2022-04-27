@@ -1,4 +1,4 @@
 name: EmptyServerStopper
 main: ess.emptyserverstopper.EmptyServerStopper
-version: "1.0.0"
-api-version: 1.15
+version: "1.0.1"
+api-version: 1.13

@@ -32,7 +32,7 @@ The delay before service shutdown is configurable in : plugins/EmptyServerStoppe
 ChangeLog:
 
     1.0.1:
-        To be compatible with oldest version of Minecraft Server
+        To be compatible with older version of Minecraft Server (1.13)
     v1.0.0:
         Revert to be compatible with jdk 1.8    
     1.16.5 (Only compatible with Java 11+ https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
