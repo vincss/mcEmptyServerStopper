@@ -1,6 +1,8 @@
 # Minecraft Plugin : Empty Server Stopper
 This plugin will stop your server after a defined amount of time when the last player leaved.
 
+Compatible with version from 1.13 to latest ( 1.19+ ).
+
 Tutorial Video :
 https://youtu.be/WqvQISpr6-s
 
