@@ -9,6 +9,9 @@ https://youtu.be/WqvQISpr6-s
 You can download the latest plugin version :
 https://github.com/vincss/mcEmptyServerStopper/releases
 
+For Fabrik & Forge versions :
+https://github.com/GHYAKIMA/emptyserverstopper-mod/releases
+
 Start the server after closing it :
 https://github.com/vincss/mcsleepingserverstarter
 
