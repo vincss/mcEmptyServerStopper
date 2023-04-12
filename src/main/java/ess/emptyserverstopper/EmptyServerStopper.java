@@ -5,11 +5,13 @@ import java.io.File;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerLoginEvent;
+import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class EmptyServerStopper extends JavaPlugin implements Listener {
 
-    private final boolean Debug = true;
+    private final boolean Debug = false;
     int m_ShutdownTimeInMinutes = 60;
     boolean m_ShutdownAtStart = false;
     int m_currentTimer = 0;
@@ -100,13 +102,13 @@ public class EmptyServerStopper extends JavaPlugin implements Listener {
     }
 
     @EventHandler
-    public void onPlayerExit() {
+    public void onPlayerExit(PlayerQuitEvent _Event) {
         WriteDebugLog("onPlayerExit");
         CheckPlayerNumber();
     }
 
     @EventHandler
-    public void onPlayerEnter() {
+    public void onPlayerEnter(PlayerLoginEvent _event) {
         WriteDebugLog("onPlayerEnter");
         CancelTimer();
     }

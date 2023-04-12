@@ -36,6 +36,8 @@ The delay before service shutdown is configurable in : plugins/EmptyServerStoppe
 
 ChangeLog:
 
+    1.1.0:
+        Cancel current timer when a player connects
     1.0.1:
         To be compatible with older version of Minecraft Server (1.13)
     v1.0.0:
