@@ -12,6 +12,9 @@ https://github.com/vincss/mcEmptyServerStopper/releases
 For Fabrik & Forge versions :
 https://github.com/GHYAKIMA/emptyserverstopper-mod/releases
 
+Forge version with config file :
+https://github.com/MadaHaz/SleepingServerStopperMod-Forge-1.20.X/releases
+
 Start the server after closing it :
 https://github.com/vincss/mcsleepingserverstarter
 
