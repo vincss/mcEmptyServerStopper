@@ -34,10 +34,11 @@ Install the plugin by putting the .jar file in the plugins / directory of your s
 There is a configuration file located in : plugins/EmptyServerStopper/config.yml
 | Setting                     | Description                                                                                                                                                                                                                              | Default value                                   |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| ShutdownTime                | TheIf the plugin should launch the timer to shutdown the server right after it starts ( will be canceled if someone connects )                                                                                                           | False  |
+| ShutdownTime                | The time before the plugin shutdown the server after that the last player leaves.                                                                                                          | False  |
+| ShutdownAtStart                | If the plugin should launch the timer to shutdown the server right after it starts ( will be canceled if someone connects )                                                                                                           | False  |
 
 
-( Then it can be restarted using mcsleepingserverstarter.)
+The server can be restarted using [mcsleepingserverstarter](https://github.com/vincss/mcsleepingserverstarter)
 
 -----------------
 
