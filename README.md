@@ -29,11 +29,15 @@ What it does :
         No one is connected: shutdown the server.
         Someone is connected: cancel the timer.
 
-Install the plugin by putting the .jar file in the plugins/ directory of your server
+Install the plugin by putting the .jar file in the plugins / directory of your server
 
-The delay before service shutdown is configurable in : plugins/EmptyServerStopper/config.yml
+There is a configuration file located in : plugins/EmptyServerStopper/config.yml
+| Setting                     | Description                                                                                                                                                                                                                              | Default value                                   |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| ShutdownTime                | TheIf the plugin should launch the timer to shutdown the server right after it starts ( will be canceled if someone connects )                                                                                                           | False  |
 
-(Then it can restart using mcsleepingserverstarter or MCSignOnDoor.)
+
+( Then it can be restarted using mcsleepingserverstarter.)
 
 -----------------
 
